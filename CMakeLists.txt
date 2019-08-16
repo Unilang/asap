@@ -69,9 +69,9 @@ add_library(asap-dummy
   include/asap/period.h
   include/asap/asap.h
   include/asap/literals.h
-  include/asap/datetime.tcc
-  include/asap/duration.tcc
-  include/asap/period.tcc)
+  include/asap/datetime.cpp
+  include/asap/duration.cpp
+  include/asap/period.cpp)
 set_target_properties(asap-dummy PROPERTIES LINKER_LANGUAGE CXX EXCLUDE_FROM_ALL TRUE)
 
 add_custom_target(dist

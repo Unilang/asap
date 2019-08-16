@@ -57,8 +57,8 @@ namespace asap {
   }
 }
 
-#include "datetime.tcc"
-#include "duration.tcc"
-#include "period.tcc"
+#include "datetime.cpp"
+#include "duration.cpp"
+#include "period.cpp"
 
 #endif //ASAP_H
